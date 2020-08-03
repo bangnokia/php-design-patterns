@@ -1,0 +1,16 @@
+{
+    "name": "bangnokia/php-design-patterns",
+    "description": "some design pattern implement in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bangnokia",
+            "email": "bangnokia@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BangNokia\\PhpDesignPatterns\\": "src/"
+        }
+    }
+}
