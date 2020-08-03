@@ -4,9 +4,9 @@ namespace BangNokia\PhpDesignPatterns\Decorator;
 
 class Mocha extends CondimentDecorator
 {
-    protected $beverage;
+    protected Beverage $beverage;
 
-    public function __construct($beverage)
+    public function __construct(Beverage $beverage)
     {
         $this->beverage = $beverage;
     }
