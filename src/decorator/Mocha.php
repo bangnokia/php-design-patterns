@@ -11,7 +11,7 @@ class Mocha extends CondimentDecorator
         $this->beverage = $beverage;
     }
 
-    public function getDescription()
+    public function getDescription(): string
     {
         return $this->beverage->getDescription().', Mocha';
     }

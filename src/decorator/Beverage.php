@@ -4,7 +4,15 @@ namespace BangNokia\PhpDesignPatterns\Decorator;
 
 abstract class Beverage
 {
-    protected $description = 'Unknow beverage';
+    protected string $description = 'Unknown beverage';
 
-    abstract function cost();
+    /**
+     * @return string
+     */
+    public function getDescription(): string
+    {
+        return $this->description;
+    }
+
+    abstract function cost();   
 }

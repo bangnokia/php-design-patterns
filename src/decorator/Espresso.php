@@ -4,7 +4,7 @@ namespace BangNokia\PhpDesignPatterns\Decorator;
 
 class Espresso extends Beverage
 {
-    protected $description = 'Espresso';
+    protected string $description = 'Espresso';
 
     public function cost()
     {

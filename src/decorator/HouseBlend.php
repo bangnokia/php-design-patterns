@@ -4,7 +4,7 @@ namespace BangNokia\PhpDesignPatterns\Decorator;
 
 class HouseBlend extends Beverage
 {
-    protected $description = 'House blend coffe';
+    protected string $description = 'House blend coffee';
 
     public function cost()
     {
